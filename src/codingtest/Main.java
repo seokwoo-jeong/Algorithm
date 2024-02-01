@@ -18,9 +18,11 @@ import codingtest.dev2_220623.Dev3;
 import codingtest.eleven202205.Eleven1;
 import codingtest.hanhwasol2211.Hanwha1;
 import codingtest.lotte202206.Lotte2;
+import codingtest.lotte202206.Lotte2_RE;
 import codingtest.sktelecom202206.SkTel1_Re;
 import codingtest.sktelecom202206.SkTel2_Re;
 import codingtest.ssg202205.Ssg1;
+import codingtest.ssg202205.Ssg1_RE;
 import codingtest.ssg202205.Ssg2;
 import codingtest.ssg202205.Ssg2_re;
 import codingtest.ssg202205.Ssg3;
@@ -47,10 +49,11 @@ public class Main {
 		 * target);
 		 */
 
-		/*
-		 * Ssg1 ssg1 = new Ssg1(); int[] v = {4,5,5}; int a = 2; int b = 1;
-		 * System.out.println(ssg1.solution(v,a,b));
-		 */
+		Ssg1_RE ssg1 = new Ssg1_RE();
+		int[] v = { 4, 4, 3 };
+		int a = 2;
+		int b = 1;
+		System.out.println(ssg1.solution(v, a, b));
 
 //		Ssg2_re ssg2 = new Ssg2_re();
 		// String[] logs = { "0001 3 95", "0001 5 90", "0001 5 100", "0002 3 95", "0001
@@ -102,11 +105,11 @@ public class Main {
 		 * nhn1.solution(cards1,cards2);
 		 */
 
-		Nhn2_RE2 nhn2 = new Nhn2_RE2();
-		int[] balance = {30,30,30,30 };
-		int[][] transaction = { { 1, 2, 10 }, { 2, 3, 20 }, { 3, 4,5 }, {3,4,30} };
-		int[] abnormal = { 1 };
-		nhn2.solution(balance, transaction, abnormal);
+		/*
+		 * Nhn2_RE2 nhn2 = new Nhn2_RE2(); int[] balance = {30,30,30,30 }; int[][]
+		 * transaction = { { 1, 2, 10 }, { 2, 3, 20 }, { 3, 4,5 }, {3,4,30} }; int[]
+		 * abnormal = { 1 }; nhn2.solution(balance, transaction, abnormal);
+		 */
 
 		/*
 		 * Nhn3 nhn3 = new Nhn3(); String[] maze = {"AAAAA", "AABBB", "CAEFG", "AAEFF"};
@@ -121,9 +124,10 @@ public class Main {
 		 * nhn4.solution(players, power, k);
 		 */
 
-		/*
-		 * Lotte2 lotte2 = new Lotte2(); int r = 3; int c = 5; lotte2.solution(r, c);
-		 */
+		Lotte2_RE lotte2 = new Lotte2_RE();
+		int r = 9;
+		int c = 7;
+		lotte2.solution(r, c);
 
 		/*
 		 * Dev1 dev1 = new Dev1(); // ex) {1,3,2} -> {1,2,2} result: 1 // ex) {4,3,2} ->
