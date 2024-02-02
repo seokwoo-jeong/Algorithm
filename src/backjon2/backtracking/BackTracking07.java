@@ -10,6 +10,7 @@ import java.util.Arrays;
 // https://www.acmicpc.net/problem/15656
 // N과 M (7)
 public class BackTracking07 {
+	
 	private static int[] array;
 	private static int[] answerArray;
 	private static BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
